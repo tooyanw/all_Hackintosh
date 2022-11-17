@@ -1,4 +1,4 @@
-echo "# all_Hackintosh" >> README.md
+echo README.md
 git init
 git add README.md
 git commit -m "first commit"
