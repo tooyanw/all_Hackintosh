@@ -1,0 +1,9 @@
+bcdedit
+
+bcdedit /set {default} description "WIN10 LTSC" ##默认系统
+bcdedit /set {current} description "WIN11 Pro" ##当前系统
+bcdedit /set {current} description "WIN10 LTSC" ##当前系统
+注意<default>和<current>分别代表默认系统和当前系统。
+
+当前系统设置为默认启动系统
+bcdedit /set {bootmgr} default {current}
